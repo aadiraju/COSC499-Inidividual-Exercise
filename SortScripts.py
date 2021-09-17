@@ -2,10 +2,10 @@ import random
 
 
 def sort_int_list(array):
-    '''
+    """
     :param array:
     returns a sorted version of array using the bubble sort method in ascending order
-    '''
+    """
     arr = array.copy()
     size = len(arr)
     for i in range(size - 1):
